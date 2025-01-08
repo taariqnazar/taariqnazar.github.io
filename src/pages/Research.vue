@@ -14,6 +14,7 @@ const citations = ref([{
 
 <template>
 
+  <h1 class="text-xl font-bold">Preprints & Publications</h1>
   <ul>
     <li
       class="citation text-sm leading-relaxed text-gray-700"
