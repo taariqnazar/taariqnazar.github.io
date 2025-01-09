@@ -1,3 +1,7 @@
+<script setup>
+  import Publication from "../components/Publication.vue"
+</script>
+
 <template>
   <div class="text-sm">  <h1 class="text-xl font-bold">Education</h1>
   <ul class="space-y-3 mb-3">
@@ -12,9 +16,10 @@
     </li>
   </ul>
 
-  <h1 class="text-xl font-bold mb-3">Publications</h1>
+  <h1 class="text-xl font-bold"> Prepints & Publications</h1>
+  <Publication />
 
-  <h1 class="text-xl font-bold">Teaching</h1>
+  <h1 class="text-xl font-bold mt-3">Teaching</h1>
   <ul class="space-y-3 mb-3">
     <li>
       <span class="text-gray-400">2023-Present:</span>
@@ -72,5 +77,4 @@
     </li>
   </ul>
 </div>
-
 </template>

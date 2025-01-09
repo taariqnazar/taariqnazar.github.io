@@ -3,10 +3,10 @@
 
 <template>
   <div class="container h-screen flex items-center justify-center
-    max-w-screen-sm w-full p-5 mx-auto
+    max-w-screen-sm w-full  mx-auto
     font-['Source_Code_Pro']
     ">
-    <div class="max-w-screen-m">
+    <div class="absolute top-[30vh]">
       <div class="flex flex-col sm:flex-row">
         <img src="https://avatars.githubusercontent.com/u/51823781?v=4"
           alt="taariq nazar" class="rounded-full w-20 h-20 mb-3">
@@ -29,7 +29,9 @@
       </ul>
 
       <div class="max-w-md my-3">
-        <router-view/> 
+        <router-view v-slot="{ Component, route }">
+            <component :is="Component" :key="route.path" />
+        </router-view>
       </div>
     </div>
   </div>

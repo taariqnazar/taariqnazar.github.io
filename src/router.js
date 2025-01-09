@@ -5,9 +5,9 @@ import Research from './pages/Research.vue'
 import Cv from './pages/CV.vue'
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/research', component: Research },
-  { path: '/cv', component: Cv },
+  { path: '/', name:"Home", component: Home },
+  { path: '/research', name: "Research", component: Research },
+  { path: '/cv', name:"CV", component: Cv },
 ]
 
 const router = createRouter({

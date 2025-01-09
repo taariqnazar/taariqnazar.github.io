@@ -1,10 +1,12 @@
 <template>
-  PhD student in Mathematical Statistics @ Stockholm University. I am
-  interested in 
-  <span class="italic">machine learning</span>, 
-  <span class="italic">reinforcement learning</span>,
-  <span class="italic">eleictrical engineering</span> and 
-  <span class="italic">software development</span>.
+    PhD student in Mathematical Statistics @ Stockholm University. I am
+    interested in 
+    <span class="italic">machine learning</span>, 
+    <span class="italic">reinforcement learning</span>,
+    <span class="italic">eleictrical engineering</span> and 
+    <span class="italic">software development</span>.
+
+
 
   <ul class="text-slate-500 flex space-x-4 my-5 text-gray-600">
     <li>
