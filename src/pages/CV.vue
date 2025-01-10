@@ -63,7 +63,7 @@
     </li>
 
     <li>
-      <span class="text-gray-400">2021:</span> Handels Banken <br>
+      <span class="text-gray-400">2021:</span> Handelsbanken <br>
       <span class="italic">
       Internship, Quantitative Researcher and Software Developer
       </span>
