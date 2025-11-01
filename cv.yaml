@@ -1,0 +1,266 @@
+basics:
+  name: "Taariq Nazar"
+  label: "PhD Student, Department of Mathematics, Stockholm University"
+  email: "you@example.com"
+  phone: ""
+  url: "https://taariqnazar.github.io/"
+  location:
+    city: "Stockholm"
+    countryCode: "SE"
+  profiles:
+    - network: "GitHub"
+      username: "taariqnazar"
+      url: "https://github.com/taariqnazar"
+    - network: "LinkedIn"
+      username: "taariq-nazar-060719bb"
+      url: "https://www.linkedin.com/in/taariq-nazar-060719bb/"
+    - network: "Google Scholar"
+      username: "3eZbj84AAAAJ"
+      url: "https://scholar.google.com/citations?user=3eZbj84AAAAJ&hl"
+
+summary: >
+  ML researcher and PhD student in Mathematical Statistics at Stockholm University.
+  I build real-time NLP/time-series systems for news-driven trading and risk—designing
+  ingestion→analysis→signal pipelines with second-level latency and production deployment.
+  Research: actuarial modeling, probabilistic forecasting (scoring rules), and optimal transport.
+
+education:
+  - institution: "Stockholm University"
+    area: "Mathematical Statistics"
+    studyType: "PhD"
+    startDate: "2022-08"
+    endDate: null
+    courses: []
+  - institution: "KTH Royal Institute of Technology"
+    studyType: "BSc & MSc"
+    area: "Engineering Physics (BSc); Applied Mathematics (MSc)"
+    startDate: "2017-08"
+    endDate: "2022-06"
+    x-degrees:
+      - level: "BSc"
+        area: "Engineering Physics"
+        startDate: "2017-08"
+        endDate: "2020-06"
+      - level: "MSc"
+        area: "Applied Mathematics"
+        startDate: "2020-08"
+        endDate: "2022-06"
+
+work:
+  - name: "Quanor"
+    position: "Co-founder & Head of AI"
+    startDate: "2024-03"
+    endDate: null
+    location: "Stockholm (hybrid)"
+    summary: >
+      Fintech startup building a real-time NLP pipeline for market news that produces
+      analyses, summaries, and tradable signals within a few seconds end-to-end.
+    highlights:
+      - "Designed and led the end-to-end pipeline (ingestion → NLP analysis → summarization → signal generation) with second-level latency."
+      - "Defined modeling roadmap across NLP and time-series for news-driven signals; established evaluation with backtests and proper scoring rules."
+      - "Built the production path from research to deployment and monitoring; piloting signal delivery with customers."
+  - name: "Swedbank"
+    position: "Risk Analyst (part-time)"
+    startDate: "2023-01"
+    endDate: "2023-12"
+    location: "Stockholm"
+    summary: >
+      Researched and priced exotic derivatives and integrated pricing into existing systems.
+    highlights:
+      - "Developed fair-pricing approaches for exotic structures and embedded them into the bank’s workflows."
+      - "Collaborated with risk/quant teams on validation and system integration."
+  - name: "Lynx Asset Management"
+    position: "Research Intern"
+    startDate: "2022-01"
+    endDate: "2022-12"
+    location: "Stockholm"
+    summary: >
+      Investigated data-driven clustering of assets within asset classes for portfolio construction.
+    highlights:
+      - "Evaluated hierarchical and related clustering methods to inform allocation and diversification."
+  - name: "Handelsbanken"
+    position: "Intern — Quantitative Researcher and Software Developer"
+    startDate: "2021-01"
+    endDate: "2021-12"
+    location: "Stockholm"
+    summary: >
+      Research on pricing of XVA derivatives with accompanying software prototypes.
+    highlights:
+      - "Studied pricing approaches for XVA; implemented research prototypes and reports for the quant team."
+  - name: "Söderberg & Partners"
+    position: "Intern — Quantitative Researcher"
+    startDate: "2020-01"
+    endDate: "2021-12"
+    location: "Stockholm"
+    summary: >
+      Quantitative research support across investment and risk topics.
+    highlights: []
+
+publications:
+  - name: "On duration effects in non-life insurance pricing"
+    authors:
+      - "Mathias Lindholm"
+      - "Taariq Nazar"
+    publisher: "European Actuarial Journal"
+    releaseDate: "2024-12"
+    volume: "14"
+    issue: "3"
+    pages: "809-832"
+    url: "https://doi.org/10.1007/s13385-024-00385-5"
+    x-venuePublisher: "Springer Berlin Heidelberg"
+    summary: >
+      Studies duration effects in EDF models for non-life insurance pricing; gives
+      convergence results for mean/dispersion estimators and implications when
+      linear-in-duration assumptions fail.
+  - name: "Regularisation of CART trees by summation of p-values"
+    authors:
+      - "Nils Engler"
+      - "Mathias Lindholm"
+      - "Filip Lindskog"
+      - "Taariq Nazar"
+    publisher: "arXiv"
+    releaseDate: "2025-05"
+    url: "https://arxiv.org/abs/2505.18769"
+    x-pdf: "https://arxiv.org/pdf/2505.18769"
+    x-status: "preprint"
+    summary: >
+      Regularizes CART by aggregating split p-values to control overfitting; aims for
+      smaller trees with improved out-of-sample generalization.
+
+awards:
+  - title: "Faculty of Science Stipend"
+    date: "2024"
+    awarder: "Stockholm University"
+    summary: ""
+
+skills:
+  - name: "Mathematics & Statistics"
+    keywords:
+      - Actuarial science
+      - Statistical learning
+      - Reinforcement learning
+      - Bayesian decision theory
+      - Probabilistic forecasting
+      - Scoring rules
+      - Optimal transport
+  - name: "Machine Learning"
+    keywords:
+      - Natural Language Processing
+      - Deep Learning
+      - Diffusion models
+      - Time-series modeling
+  - name: "Programming"
+    keywords:
+      - Python
+      - NumPy
+      - pandas
+      - PyTorch
+      - JAX
+      - LaTeX
+      - Git
+  - name: "Data/Infra"
+    keywords:
+      - Jupyter
+      - Docker
+      - Linux
+      - SQL (PostgreSQL)
+
+projects:
+  - name: "Scratch-built autonomous drone"
+    role: "Designer & Developer"
+    startDate: null
+    endDate: null
+    url: "https://github.com/taariqnazar/rust-flight-controller/tree/main/src"
+    summary: >
+      Ongoing project. Building the drone stack end-to-end; currently redesigning the PCB
+      and developing a Rust flight controller.
+    keywords:
+      - PCB design
+      - Embedded programming
+      - Rust
+      - Flight control
+
+languages:
+  - language: "English"
+    fluency: "C2 (professional)"
+  - language: "Swedish"
+    fluency: "C1 (professional)"
+  - language: "Tamil"
+    fluency: "B2 (conversational)"
+
+interests:
+  - probabilistic forecasting
+  - scoring rules
+  - reinforcement learning
+  - actuarial modeling
+  - information geometry
+
+# ---------- Extensions (x-*) ----------
+x-currentFocus: >
+  I’m into systems that learn. Lately I’ve been working at the intersection of
+  information theory and machine learning: one project develops a geometric view
+  of information in supervised learning, another explores how information-theoretic
+  ideas shape reinforcement learning. I also tinker with electronics, robotics,
+  and embedded systems—I like to build things and write code.
+
+x-currentInterests:
+  - "Geometric views of information in supervised learning"
+  - "Information theory × reinforcement learning"
+  - "Electronics, robotics, and embedded systems (I like to build things and write code)"
+
+x-teaching:
+  - role: "Co-organizer & Teaching Assistant"
+    course: "Data-Driven Life Science"
+    institution: "Stockholm University"
+    level: "Interdisciplinary (Life Science)"
+    startDate: "2025-01"
+    endDate: "2025-06"
+    description: >
+      Course aimed at teaching deep learning to scientists from life-science fields.
+    url: ""
+  - role: "Teaching Assistant"
+    course: "Deep Diffusion Models"
+    institution: "Stockholm University"
+    level: "Master"
+    startDate: "2026-01"
+    endDate: null
+    x-status: "planned"
+    description: "Planned TA assignment in 2026."
+  - role: "Lecturer"
+    course: "Statistical Data Processing"
+    level: "Bachelor"
+    institution: "Stockholm University"
+    startDate: "2023"
+    endDate: null
+    description: ""
+  - role: "Teaching Assistant"
+    course: "Reinforcement Learning"
+    level: "Master"
+    institution: "Stockholm University"
+    startDate: "2024"
+    endDate: null
+    description: ""
+
+x-service:
+  - startDate: "2024"
+    endDate: null
+    role: "Chair, PhD council"
+    org: "Stockholm University, Department of Mathematics"
+
+x-talks:
+  - date: "2024"
+    title: "Conference for the Scandinavian Actuarial Journal"
+    location: "Copenhagen"
+    description: ""
+
+x-links:
+  - label: "GitHub"
+    url: "https://github.com/taariqnazar"
+  - label: "LinkedIn"
+    url: "https://www.linkedin.com/in/taariq-nazar-060719bb/"
+  - label: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=3eZbj84AAAAJ&hl"
+
+meta:
+  notes: "Consolidated CV with updated focus blurb; added locations; strengthened summaries; arXiv link; marked planned teaching."
+  lastUpdated: "2025-11-01T00:00:00Z"
