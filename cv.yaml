@@ -1,8 +1,14 @@
-basics:
+profile:
   name: "Taariq Nazar"
-  label: "PhD Student, Department of Mathematics, Stockholm University"
-  email: "you@example.com"
-  phone: ""
+  label: "PhD Student @ Department of Mathematics, Stockholm University"
+  email: "taariq.nazar@math.su.se"
+  phone: "+46 76 187 94 47"
+  address:
+    street: "Falkholmsgränd 7"
+    city: "Stockholm"
+    region: "Stockholm"
+    postalCode: "127 46"
+    country: "Sweden"
   url: "https://taariqnazar.github.io/"
   location:
     city: "Stockholm"
@@ -18,11 +24,15 @@ basics:
       username: "3eZbj84AAAAJ"
       url: "https://scholar.google.com/citations?user=3eZbj84AAAAJ&hl"
 
-summary: >
-  ML researcher and PhD student in Mathematical Statistics at Stockholm University.
-  I build real-time NLP/time-series systems for news-driven trading and risk—designing
-  ingestion→analysis→signal pipelines with second-level latency and production deployment.
-  Research: actuarial modeling, probabilistic forecasting (scoring rules), and optimal transport.
+summary: > 
+  I’m an ML researcher and PhD student in Mathematical Statistics at
+  Stockholm University. My work sits at the intersection of information theory and
+  machine learning: one line develops geometric views of information in supervised
+  learning; another explores how information-theoretic ideas shape reinforcement
+  learning. Beyond research, I build production-grade, real-time NLP/time-series
+  pipelines for news-driven trading. I also enjoy hands-on
+  engineering—electronics, robotics, and embedded systems—because I like systems
+  that learn and things I can build end-to-end.
 
 education:
   - institution: "Stockholm University"
@@ -65,14 +75,14 @@ work:
     endDate: "2023-12"
     location: "Stockholm"
     summary: >
-      Researched and priced exotic derivatives and integrated pricing into existing systems.
+      Researched and priced exotic derivatives and integrated pricing and risk evaluation into existing systems.
     highlights:
       - "Developed fair-pricing approaches for exotic structures and embedded them into the bank’s workflows."
       - "Collaborated with risk/quant teams on validation and system integration."
   - name: "Lynx Asset Management"
     position: "Research Intern"
     startDate: "2022-01"
-    endDate: "2022-12"
+    endDate: "2022-06"
     location: "Stockholm"
     summary: >
       Investigated data-driven clustering of assets within asset classes for portfolio construction.
@@ -80,7 +90,7 @@ work:
       - "Evaluated hierarchical and related clustering methods to inform allocation and diversification."
   - name: "Handelsbanken"
     position: "Intern — Quantitative Researcher and Software Developer"
-    startDate: "2021-01"
+    startDate: "2021-05"
     endDate: "2021-12"
     location: "Stockholm"
     summary: >
@@ -88,13 +98,17 @@ work:
     highlights:
       - "Studied pricing approaches for XVA; implemented research prototypes and reports for the quant team."
   - name: "Söderberg & Partners"
-    position: "Intern — Quantitative Researcher"
+    position: "Intern — Quantitative Analyst"
     startDate: "2020-01"
     endDate: "2021-12"
     location: "Stockholm"
     summary: >
-      Quantitative research support across investment and risk topics.
-    highlights: []
+      Quantitative analysis across investments and insurance risk; built analytics
+      tooling and contributed features to the client platform.
+    highlights:
+      - "Analyzed in-force insurance portfolios and outstanding claims to support pricing, reserving, and risk monitoring."
+      - "Built reusable tooling for customer analytics and segmentation, enabling faster advisor insights."
+      - "Contributed to the customer platform with analytics features that improved usability and decision support."
 
 publications:
   - name: "On duration effects in non-life insurance pricing"
@@ -155,7 +169,6 @@ skills:
       - NumPy
       - pandas
       - PyTorch
-      - JAX
       - LaTeX
       - Git
   - name: "Data/Infra"
@@ -212,8 +225,8 @@ x-teaching:
   - role: "Co-organizer & Teaching Assistant"
     course: "Data-Driven Life Science"
     institution: "Stockholm University"
-    level: "Interdisciplinary (Life Science)"
-    startDate: "2025-01"
+    level: "PhD"
+    startDate: "2025-03"
     endDate: "2025-06"
     description: >
       Course aimed at teaching deep learning to scientists from life-science fields.
@@ -233,6 +246,8 @@ x-teaching:
     startDate: "2023"
     endDate: null
     description: ""
+    url: "https://su-mt4007.github.io/"
+
   - role: "Teaching Assistant"
     course: "Reinforcement Learning"
     level: "Master"
